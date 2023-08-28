@@ -13,65 +13,17 @@ button {
   list-style: none;
   text-decoration: none;
 }
-
 header {
   background-color: beige;
 }
+.container {
+  display: flex;
+}
+.first-row {
+  display: flex;
+  justify-content: space-between;
+}
+.social-media {
+}
 
 /* Navbar styles */
-.navbar {
-  background-color: beige;
-  color: black;
-  padding: 10px 0;
-}
-
-.navbar-top {
-  display: flex;
-  padding: 0 20px;
-}
-
-.navbar-contact {
-  display: flex;
-}
-
-.contact-item {
-  display: flex;
-  align-items: center;
-  /* margin-right: 20px; */
-}
-
-.contact-item img {
-  width: 20px;
-  margin-right: 5px;
-}
-
-.social-icons img {
-  width: 20px;
-  margin-right: 10px;
-}
-
-.navbar-logo img {
-  width: 100px;
-  display: block;
-}
-
-.navbar-links {
-  display: flex;
-  align-items: center;
-  justify-content: flex;
-  padding: 10px 20px;
-}
-
-.navbar-links a {
-  color: black;
-  margin-right: 20px;
-}
-
-.login-button {
-  background-color: rgb(241, 186, 117);
-  color: black;
-  border: none;
-  padding: 8px 15px;
-  border-radius: 5px;
-  cursor: pointer;
-}
