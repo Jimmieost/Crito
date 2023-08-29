@@ -1,29 +1,113 @@
-/* Reset some default browser styles */
-body,
-h1,
-h2,
-h3,
-p,
-ul,
-li,
-a,
 button {
+  background-color: #f9d783;
   margin: 0;
-  padding: 0;
+  padding: 0.5rem 2rem;
   list-style: none;
   text-decoration: none;
+  border-radius: 50px;
+  border: none;
 }
+
+.transparent-button {
+  background-color: transparent;
+  border: 1px solid;
+}
+
 header {
-  background-color: beige;
+  background-color: #f0efe9;
+  padding-top: 1rem;
 }
-.container {
+
+.crito-logo {
+  display: block;
+  height: 100%;
+  padding-top: 1rem;
+  padding-right: 1.5rem;
+}
+
+nav {
+  width: 100%;
+}
+
+.nav-section {
   display: flex;
+  gap: 1rem;
 }
 .first-row {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid grey;
+  padding-bottom: 8px;
 }
+
+.company-info {
+  display: flex;
+  gap: 10px;
+}
+
+.company-info i {
+  padding-inline: 8px;
+  border-left: 1px solid grey;
+}
+.company-info span:first-of-type i {
+  padding: 0 8px 0 0;
+  border-left: none;
+}
+
 .social-media {
 }
 
-/* Navbar styles */
+.second-row {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 10px;
+}
+
+.showcase {
+  padding-top: 3rem;
+  align-items: center;
+  display: flex;
+}
+
+.content-column {
+  max-width: 35rem;
+}
+
+.showcase-header {
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+
+.button-links {
+  display: flex;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.button-links button {
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.image-column img {
+  max-width: 380px;
+}
+
+.partner-logos {
+  display: flex;
+  justify-content: space-around;
+
+  padding-top: 5rem;
+}
+
+.partner-logos img {
+  object-fit: contain;
+}

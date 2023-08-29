@@ -1,93 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <!-- CSS only -->
-  <!-- <link
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- CSS only -->
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
-    /> -->
-  <script type="module" src="main.js" defer></script>
-  <link rel="stylesheet" type="text/css" href="styles.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
-  <!-- JavaScript Bundle with Popper -->
-  <!-- <script
+    />
+    <script type="module" src="main.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
-    ></script> -->
-  <title>Crito</title>
-</head>
+    ></script>
+    <title>Crito</title>
+  </head>
 
-<body>
-  <header>
-    <section class="nav-section">
+  <body>
+    <header>
       <div class="container">
-        <nav>
-          <div class="first-row">
-            <div class="company-info">
-              <span><i class="bi bi-telephone"></i>+1 123-456-7890</span>
-              <span><i class="bi bi-envelope"></i>crito@info.com</span>
-              <span><i class="bi bi-geo-alt"></i>Sveavägen 31, 111 34 Stockholm</span>
+        <section class="nav-section">
+          <img
+            class="crito-logo"
+            src="images/logos/crito_logo.png"
+            alt="logo"
+          />
+          <nav>
+            <div class="first-row">
+              <div class="company-info">
+                <span><i class="bi bi-telephone"></i>+1 123-456-7890</span>
+                <span><i class="bi bi-envelope"></i>crito@info.com</span>
+                <span
+                  ><i class="bi bi-geo-alt"></i>Sveavägen 31, 111 34
+                  Stockholm</span
+                >
+              </div>
+              <div class="social-media">
+                <a href="https://facebook.com"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a href="https://twitter.com"><i class="bi bi-twitter"></i></a>
+                <a href="https://instagram.com"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a href="https://linkedin.com"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+              </div>
             </div>
-            <div class="social-media">
-              <a href="https://facebook.com"><i class="bi bi-facebook"></i></a>
-              <a href="https://twitter.com"><i class="bi bi-twitter"></i></a>
-              <a href="https://instagram.com"><i class="bi bi-instagram"></i></a>
-              <a href="https://linkedin.com"><i class="bi bi-linkedin"></i></a>
+            <div class="second-row">
+              <div class="navbar-links">
+                <a href="#">Home</a>
+                <a href="#">Contact</a>
+                <a href="#">News</a>
+                <a href="#">About</a>
+              </div>
+              <button class="login-button">Login</button>
             </div>
-          </div>
-          <div class="second-row">
-            <h1>Crito</h1>
-          </div>
-          <div class="navbar-bottom">
-            <div class="navbar-links">
-              <a href="#">Home</a>
-              <a href="#">Contact</a>
-              <a href="#">News</a>
-              <a href="#">About</a>
-            </div>
-            <button class="login-button">Login</button>
-          </div>
-        </nav>
+          </nav>
+        </section>
       </div>
-    </section>
 
-
-    <section class="showcase">
       <div class="container">
-        <div class="content-column">
-          <h1>We Provide The Best Consulting Services</h1>
-          <p>Establish your vision and value proposition and turn them into testable prototypes</p>
-          <div class="button-links">
-            <a href="consulting.html">Get consulting</a>
-            <a href="service.html">Learn more</a>
+        <section class="showcase">
+          <div class="content-column">
+            <h1 class="showcase-header">
+              We Provide The Best Business Solutions
+            </h1>
+            <p>
+              Establish your vision and value proposition and turn them into
+              testable prototypes
+            </p>
+            <div class="button-links">
+              <button><a href="consulting.html">Get consulting</a></button>
+              <button class="transparent-button">
+                <a href="service.html">Learn more</a>
+              </button>
+            </div>
           </div>
-        </div>
-        <div class="image-column">
-          <img src="images/showcase-image.jpg" alt="">
-        </div>
+          <div class="image-column">
+            <img src="images/home page/hero introduction/hero.png" alt="" />
+          </div>
+        </section>
       </div>
-    </section>
-  </header>
+    </header>
 
-  <main>
-    <section></section>
+    <main>
+      <section class="partner-logos">
+        <img src="images/logos/dorfus_logo.png" alt="dorfus_logo" />
+        <img src="images/logos/gobona_logo.png" alt="gobona_logo" />
+        <img src="images/logos/paperz_logo.png" alt="paperz_logo" />
+        <img src="images/logos/square_logo.png" alt="square_logo" />
+      </section>
 
-    <section></section>
-  </main>
+      <section></section>
+    </main>
 
-  <footer>
-    <p>&copy; 2023 Your Company. All rights reserved.</p>
-  </footer>
-</body>
-
+    <footer>
+      <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
