@@ -54,9 +54,6 @@ nav {
   border-left: none;
 }
 
-.social-media {
-}
-
 .second-row {
   display: flex;
   justify-content: space-between;
@@ -89,9 +86,6 @@ nav {
   padding-top: 1rem;
 }
 
-.button-links button {
-}
-
 a {
   text-decoration: none;
   color: inherit;
@@ -104,7 +98,6 @@ a {
 .partner-logos {
   display: flex;
   justify-content: space-around;
-
   padding-top: 5rem;
 }
 
@@ -132,7 +125,7 @@ a {
   flex: 1;
 }
 
-.features-p {
+.features-headline {
   color: #f94d1c;
   font-family: Inter;
   font-size: 18px;
@@ -141,7 +134,7 @@ a {
   line-height: normal;
 }
 
-.features-headline {
+.features-h2 {
   color: #191919;
   font-size: 45px;
   font-style: normal;
@@ -179,7 +172,6 @@ a {
 .about-container {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
 }
 
 .left-section {
@@ -219,7 +211,7 @@ a {
   max-width: 35rem;
 }
 
-.about-p {
+.about-headline {
   color: #f94d1c;
   font-family: Inter;
   font-size: 18px;
@@ -228,7 +220,7 @@ a {
   line-height: normal;
 }
 
-.about-headline {
+.about-h2 {
   color: #191919;
   font-size: 45px;
   font-style: normal;
@@ -240,4 +232,101 @@ a {
   margin-top: 4rem;
   background-color: black;
   color: white;
+}
+
+.bi-play-circle-fill {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 10rem;
+  padding: 1rem;
+  margin-left: 2rem;
+}
+
+.services-container.container {
+  margin-top: 5rem;
+  width: 100%;
+}
+
+.services-container {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px 0;
+}
+
+/* Styla services-section */
+
+.services-text-section {
+  max-width: 35rem;
+}
+
+.services-headline {
+  color: #f94d1c;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.services-h2 {
+  color: #191919;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#service-background {
+  background-color: #f0efe9;
+}
+
+.service-container {
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.service-container h3 {
+  margin-bottom: 10px;
+}
+
+.text-section {
+  margin-left: 0;
+  max-width: 35rem;
+}
+
+.box-section {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+  height: 250px;
+}
+
+.service-box {
+  background: white;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.services-button {
+  display: flex;
+  justify-content: center;
+}
+
+.browse-services-button {
+  margin-top: 4rem;
+  background-color: transparent;
+  border: 1px solid grey;
+}
+
+.bi-arrow-right-circle-fill {
+  font-size: 25px;
 }
