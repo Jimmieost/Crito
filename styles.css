@@ -248,15 +248,13 @@ a {
 }
 
 .services-container {
-  /* width: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 5rem;
 
   padding: 50px 0;
 }
-
-/* Styla services-section */
 
 .services-text-section {
   max-width: 35rem;
@@ -283,14 +281,6 @@ a {
   background-color: #f0efe9;
 }
 
-.service-container {
-  padding: 20px;
-  border-radius: 5px;
-  margin: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
 .service-container h3 {
   margin-bottom: 10px;
 }
@@ -304,7 +294,7 @@ a {
   padding-top: 3rem;
   display: flex;
   justify-content: center;
-  text-align: center;
+  text-align: start;
   gap: 2rem;
   height: 250px;
 }
@@ -313,7 +303,16 @@ a {
   background: white;
   flex-direction: column;
   align-items: center;
-  padding: 30px;
+  padding: 15px;
+  max-width: 15rem;
+  height: 16rem;
+}
+
+.services-h3 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .services-button {
@@ -322,11 +321,91 @@ a {
 }
 
 .browse-services-button {
-  margin-top: 4rem;
+  margin-top: 7rem;
   background-color: transparent;
   border: 1px solid grey;
 }
 
 .bi-arrow-right-circle-fill {
   font-size: 25px;
+}
+
+.card-line {
+  border: 2px solid black;
+  max-width: 39px;
+  margin-bottom: 1rem;
+}
+
+.choose-us-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.left-section {
+  flex: 1;
+  padding-right: 20px;
+  max-width: 35rem;
+}
+
+.choose-us-headline {
+  color: #f94d1c;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.best-consulting-text {
+  fcolor: #191919;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.features-list li {
+  display: flex;
+  flex-direction: column; /* Visa listobjekten som kolumner */
+  align-items: flex-start; /* Justera innehållet till vänsterkanten */
+  margin-bottom: 15px;
+}
+
+.list-h3 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.features-list li i {
+  margin-right: 10px; /* Justera avståndet mellan ikonen och texten */
+  color: #090a0a;
+}
+
+.right-section {
+  flex: 1;
+  /* text-align: right; */
+}
+
+.gray-box {
+  width: 1057px;
+  height: 425px;
+  background-color: #f0efe9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gray-box img {
+  /* max-width: 100%; */
+  height: auto;
 }
