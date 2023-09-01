@@ -626,6 +626,10 @@ a {
   width: 100%;
 }
 
+.footer-section {
+  padding: 5rem;
+}
+
 .footer-left-text {
   color: white;
   max-width: 17rem;
@@ -642,4 +646,14 @@ a {
 
 .sub-headline {
   color: white;
+}
+
+.footer-border {
+  border-bottom: 1px solid grey;
+  width: 100%;
+}
+
+.copy {
+  color: white;
+  padding: 2rem;
 }
