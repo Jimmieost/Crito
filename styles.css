@@ -1,3 +1,5 @@
+/* ###### HOME ###### */
+
 button {
   background-color: #f9d783;
   margin: 0;
@@ -52,6 +54,11 @@ nav {
 .company-info span:first-of-type i {
   padding: 0 8px 0 0;
   border-left: none;
+}
+
+.social-media {
+  display: flex;
+  gap: 0.5rem;
 }
 
 .second-row {
@@ -656,4 +663,124 @@ a {
 .copy {
   color: white;
   padding: 2rem;
+}
+
+/* ###### HOME END ###### */
+
+/* ###### CONTACT START ###### */
+
+.extra-links {
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.contact-h2 {
+  color: #191919;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.connect-section {
+  text-align: center;
+  margin-left: -17%;
+  padding-bottom: 5rem;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+  padding: 5rem;
+}
+
+.card {
+  flex: 1;
+  max-width: 350px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+
+.card-icon {
+  padding: 10px;
+}
+
+.card-icon i {
+  font-size: 40px;
+  color: #007bff;
+}
+
+.card-content {
+  padding: 10px;
+  display: flex;
+}
+
+.card-headline {
+  color: black;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20rem;
+}
+
+.contact-box {
+  background-color: #ccc;
+  padding: 5rem;
+  border-radius: 5px;
+  text-align: left;
+  width: 1200px;
+}
+
+.contact-heading {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+  max-width: 20rem;
+}
+
+.input-fields {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-fields input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.input-fields input:nth-child(3) {
+  width: 100%;
+  padding: 30px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #f9d783;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 3rem;
 }
