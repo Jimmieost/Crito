@@ -676,7 +676,7 @@ a {
 
 .contact-h2 {
   color: #191919;
-  font-size: 45px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -802,15 +802,15 @@ a {
   padding-top: 5rem;
 }
 
-.articles-h2 {
+.news-articles-h1 {
   color: #191919;
-  font-size: 35px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 
-.news-articles-h2 {
+.articles-h2 {
   color: #191919;
   font-size: 45px;
   font-style: normal;
@@ -833,5 +833,140 @@ a {
   overflow: hidden;
 }
 
-.articles-card-content {
+/* ###### News & Articles END ###### */
+
+/* ###### News START ###### */
+
+.news-articles-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+}
+
+.column-content {
+  display: flex;
+  gap: 10rem;
+}
+
+.news-content {
+  max-width: 35rem;
+}
+
+.news-h2 {
+  color: #191919;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 1rem;
+}
+
+.news-text {
+  display: flex;
+  gap: 2rem;
+}
+
+.news-p-text {
+  max-width: 48rem;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+.italic-text i {
+  font-size: 2rem;
+}
+
+.news-left-column img {
+  width: 758px;
+}
+
+.news-buttons {
+  margin-top: 3rem;
+}
+
+.Digitalization-button {
+  background-color: lightgrey;
+}
+.school-button {
+  background-color: lightgrey;
+}
+.it-button {
+  background-color: lightgrey;
+}
+.work-button {
+  background-color: lightgrey;
+}
+.tech-button {
+  background-color: lightgrey;
+}
+
+.news-search-field {
+  border: none;
+  background-color: lightgray;
+  border-radius: 50px;
+  width: 400px;
+  margin-bottom: 1rem;
+  padding: 10px;
+}
+
+.news-card {
+  flex: 1;
+  max-width: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.news-h3 {
+  color: black;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.news-h4 {
+  color: black;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.article-card-text {
+  padding-bottom: 1rem;
+}
+
+.blog-posts-text {
+  margin-bottom: 1rem;
+}
+
+.news-content-border {
+  border: 1px solid lightgrey;
+  padding: 1rem;
+}
+
+.blog-border {
+  border-bottom: 1px solid lightgrey;
+}
+
+.categories-border {
+  margin-top: 2rem;
+  border: 1px solid lightgrey;
+  padding: 1rem;
+}
+
+.categories-card {
+  flex: 1;
+  max-width: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.news-blog-h4 {
+  color: grey;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
