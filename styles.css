@@ -369,7 +369,7 @@ a {
 }
 
 .best-consulting-text {
-  fcolor: #191919;
+  color: #191919;
   font-size: 45px;
   font-style: normal;
   font-weight: 700;
@@ -783,4 +783,55 @@ a {
   font-size: 16px;
   cursor: pointer;
   margin-top: 3rem;
+}
+
+/* ###### CONTACT END ###### */
+
+/* ###### News & Articles START ###### */
+
+.news-container {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  padding: 5rem;
+}
+
+.news {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.articles-h2 {
+  color: #191919;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.news-articles-h2 {
+  color: #191919;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.articles-h3 {
+  color: black;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.articles-card {
+  flex: 1;
+  max-width: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.articles-card-content {
 }
