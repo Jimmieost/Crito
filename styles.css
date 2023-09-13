@@ -561,8 +561,18 @@ a {
   margin-top: 5rem;
 }
 
+.home-articles-container {
+  margin-top: 5rem;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
 .articles-container {
-  padding-top: 5rem;
+  margin-top: 5rem;
+  width: 100%;
+  background-color: #f0efe9;
+  padding-top: 2rem;
   padding-bottom: 5rem;
 }
 
@@ -570,6 +580,11 @@ a {
   display: flex;
   justify-content: space-between;
   padding-bottom: 2rem;
+  /* padding-inline: 3rem; */
+}
+
+.our-articles-section.container {
+  margin-top: 3rem;
 }
 
 .article-headline {
@@ -589,16 +604,32 @@ a {
   line-height: normal;
 }
 
+.our-articles-text {
+  margin-bottom: 3rem;
+  color: #191919;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 .article-image-section {
+  margin-bottom: 2rem;
   display: flex;
+  justify-content: center;
   gap: 2rem;
 }
 
 .article-image-h3 {
+  max-width: 25rem;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.article-image-text {
+  max-width: 25rem;
 }
 
 .get-news-container {
@@ -684,7 +715,6 @@ a {
 
 .connect-section {
   text-align: center;
-  margin-left: -17%;
   padding-bottom: 5rem;
 }
 
@@ -711,7 +741,7 @@ a {
 
 .card-icon i {
   font-size: 40px;
-  color: #007bff;
+  color: black;
 }
 
 .card-content {
@@ -731,7 +761,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 20rem;
+  padding-bottom: 5rem;
 }
 
 .contact-box {
@@ -783,6 +813,10 @@ a {
   font-size: 16px;
   cursor: pointer;
   margin-top: 3rem;
+}
+
+.map-container img {
+  width: 100%;
 }
 
 /* ###### CONTACT END ###### */
@@ -838,8 +872,6 @@ a {
 /* ###### News START ###### */
 
 .news-articles-container {
-  display: flex;
-  flex-direction: column;
   padding-top: 5rem;
 }
 
@@ -849,6 +881,9 @@ a {
 }
 
 .news-content {
+  display: flex;
+  flex-direction: column;
+
   max-width: 35rem;
 }
 
