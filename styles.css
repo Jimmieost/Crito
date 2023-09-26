@@ -8,6 +8,11 @@ button {
   text-decoration: none;
   border-radius: 50px;
   border: none;
+  transition: background-color 0.7s ease;
+}
+
+button:hover {
+  background-color: #facd5a;
 }
 
 .transparent-button {
@@ -241,8 +246,8 @@ a {
 
 .learn-more-button {
   margin-top: 4rem;
-  background-color: black;
-  color: white;
+  background-color: #f9d783;
+  color: black;
 }
 
 .bi-play-circle-fill {
